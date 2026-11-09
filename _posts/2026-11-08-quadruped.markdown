@@ -1,9 +1,8 @@
-
 ---
 layout: post
 title: "Quadruped Locomotion"
 date: 2026-11-08
-categories: [projects]
+categories: projects
 image: /images/quadruped.gif
 tech: "Python, JAX, Brax, MuJoCo, ROS 2"
 code: https://github.com/divpr
