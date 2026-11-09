@@ -112,6 +112,11 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.attribution,
+.attribution a {
+  font-size: 14px;
+}
+
 // Settled on moving the import of syntax highlighting
 // to the bottom of the CSS.
 //@import "highlights";
