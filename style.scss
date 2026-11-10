@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  border-radius: 12px;
+}
+
 a:focus,
 a:hover {
   color: #f09228;
@@ -114,7 +118,19 @@ span.highlight {
 
 .attribution,
 .attribution a {
-  font-size: 14px;
+  font-size: 10px;
+}
+
+.profile-links a {
+  font-size: 18px;
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+}
+
+.profile-links .link-icon {
+  height: 16px;
+  width: 16px;
 }
 
 // Settled on moving the import of syntax highlighting

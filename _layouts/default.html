@@ -28,8 +28,8 @@
               <h1>{{ site.name }}</h1>
 
               <p>
-                I am an undergraduate student studying Computer Science and
-                Mathematics/Statistics at
+                I am a sophomore studying Computer Science and
+                Mathematics/Statistics at 
                 <a href="https://www.purdue.edu/">Purdue University</a>.
                 My interests include robotics, computer vision, machine learning,
                 and embodied intelligence.
@@ -46,16 +46,14 @@
                 Rensselaer Polytechnic Institute.
               </p>
 
-              <p style="text-align:center">
-                <a href="mailto:{{ site.footer-links.email }}">Email</a>
-                &nbsp;/&nbsp;
-                <a href="https://github.com/{{ site.footer-links.github }}">GitHub</a>
-                &nbsp;/&nbsp;
-                <a href="{{ '/pdfs/resume.pdf' | relative_url }}">CV</a>
-                {% if site.footer-links.linkedin %}
-                  &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">LinkedIn</a>
-                {% endif %}
+              <p class="profile-links" style="text-align:center">
+                <a href="mailto:{{ site.footer-links.email }}"><img class="link-icon" src="{{ '/images/icons/mail.svg' | relative_url }}" alt="" aria-hidden="true">Email</a>
+                /
+                <a href="https://github.com/{{ site.footer-links.github }}"><img class="link-icon" src="{{ '/images/icons/github.svg' | relative_url }}" alt="" aria-hidden="true">GitHub</a>
+                /
+                <a href="https://www.linkedin.com/in/divyansh-pramanick/"><img class="link-icon" src="{{ '/images/icons/linkedin.svg' | relative_url }}" alt="" aria-hidden="true">LinkedIn</a>
+                /
+                <a href="{{ '/pdfs/resume.pdf' | relative_url }}"><img class="link-icon" src="{{ '/images/icons/resume.svg' | relative_url }}" alt="" aria-hidden="true">Resume</a>
               </p>
 
             </td>
@@ -210,12 +208,12 @@
 
         </table>
 
-        <!-- Attribution -->
+       <!-- Attribution -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
               <br>
-              <p class="attribution" style="text-align:right;">
+              <p class="attribution" style="text-align:center;">
                 Modified from
                 <a href="https://jonbarron.info">Jon Barron's original design</a>
                 and
@@ -229,4 +227,5 @@
     </tr>
   </table>
 </body>
+</html>
 </html>
